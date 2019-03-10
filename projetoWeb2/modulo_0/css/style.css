@@ -1,0 +1,337 @@
+header,div,nav,ul,li,section,figure,img,body,a{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image:linear-gradient(#8FBC8F,#90EE90);
+    
+}
+
+        /*CABECALHO*/
+header{
+    
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 999;
+}
+
+#header_logo{
+    width: 25%;
+    height: inherit;
+    background-color: dimgray;
+    float: left;
+}
+
+#div_imagem_logo{
+    height: 120px;
+    width: 150px;
+/*    margin-left: auto;*/
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+.imagem_logo{
+    width: inherit;
+    height: inherit;
+    border-radius: 15px;
+}
+
+
+  /*CABECALHO_MENU*/
+#header_menu{
+    width: 40%;
+    height: inherit;
+    background-color: dimgray;
+    float: left;
+}
+
+#menu_lista{
+    width: 600px;
+    height:inherit;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.menu_lista_itens{
+    width: 80px;
+    height: 60px;
+    box-sizing: border-box;
+    float:left;
+    list-style: none;
+    margin-left: 5px;
+    background-color: beige;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    
+}
+.menu_lista_itens:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+}
+
+/*CABECALHO LOGIN*/
+
+#header_login{
+    width: 35%;
+    height: inherit;
+    background-color:dimgray;
+    float: left;  
+}
+
+#header_login_caixas{
+    width: 500px;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding-top: 15px;
+    background-color: dimgray;
+}
+
+.login_caixas_input{
+    width: 200px;
+    height: 60px;
+    box-sizing: border-box;
+    margin-left: 15px;
+    padding: 10px;
+    float:left;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: white;
+}
+
+#login_caixas_botao{
+    width: 53px;
+    height: 20px;
+    background-color: dimgray;
+    float:left;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+
+
+
+        /*CORPO*/
+
+#espaco{
+    height: 101px;
+    
+}
+
+#centralizar{
+    width: 1600px;
+    min-height: 1000px;
+    height: auto;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#corpo{
+    width: 1400px;
+    min-height: 1000px;
+    background-color: navajowhite;
+    float: left;
+    height:auto;
+    overflow:hidden;
+    margin-left:auto;
+    margin-right: auto;
+   
+}
+
+        /*CORPO SLIDER*/
+
+#corpo_slider{
+    width: inherit;
+    height: 500PX;
+    background-color:#90EE90;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+
+#slider_imagem{
+    width: 1000px;
+    height: 400px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+.mySlides{
+    width: 100%;
+    display: none;
+    height: inherit;
+    border-radius: 15px;
+    
+}
+
+
+
+ 
+
+
+        /*CORPO MENU*/
+
+#corpo_menu{
+    width: 250px;
+    height: 1000px;
+    background-color: black;
+    float: left;
+}
+
+
+#lista2{
+    width: inherit;
+    min-height: 200px;
+    height: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+   
+   
+}
+
+.item_lista2{
+    width: inherit;
+    height: 50px;
+    background-color: whitesmoke;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+        /*CORPO PRODUTOS*/
+
+#corpo_produtos{
+    width: 1150px;
+    background-color: lightgray;
+    float: left;
+    height:auto;
+    overflow: hidden;
+    min-height: 1000px;
+}
+.produtos{
+    width: 290px;
+    height: 300px;
+    background-color: black;
+    margin-left: 50px;
+    float:left;
+    margin-top: 20px;
+    border-radius: 20px;
+}   
+
+.imagem_produto{
+    width: 220px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+
+.texto_conteudo{
+    width: inherit;
+    height: 140px;
+    background-color: black;
+}
+
+    /*TABELA DOS PRODUTOS*/
+
+.tabela_produtos{
+    height: inherit;
+    width: inherit;
+     border: 1px solid black;
+    background-color: black;
+    
+    
+}
+
+.linha_tabela_produtos{
+    height: 35px;
+    width: inherit;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.detalhes_produtos:hover{
+    cursor: pointer;
+    color: aqua;
+}
+
+/* Imagens redes sociais*/
+
+.imagem_icone{
+    width: inherit;
+    height: inherit;
+}
+
+#redes_sociais{
+    width: 80px;
+    height: 280px;
+    background-color: black;
+    float: left;
+    margin-top: 200px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    z-index: 999;
+    
+}
+
+.imagens_redes_sociais{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#facebook{
+    margin-right: 15px;
+}
+
+        /*RODAPE*/
+
+#rodape{
+    width: inherit;
+    height: 200px;
+    background-color: gray;
+    clear: both;
+   
+}
+
+
+        /*PARA TESTAR*/
+#container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 999;
+    position: absolute;
+    display: none;
+}
+
+#modal{
+    width: 500px;
+    height: 700px;
+    background-color: white;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
